@@ -11,13 +11,10 @@ private:
 	Date createdDate;
 
 public:
-	boolean login();
-
-	void logout();
-
-	boolean resetPassword();
-
-	boolean updateEmail();
+    boolean login();
+    void logout();
+    boolean resetPassword();
+    boolean updateEmail();
 };
 
 #endif
